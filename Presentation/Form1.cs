@@ -16,5 +16,11 @@ namespace Presentation
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            int i = 0;
+            Console.WriteLine(i);
+        }
     }
 }
